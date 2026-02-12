@@ -1,0 +1,10 @@
+Question-> Given an array of n elements find the number of elements having altlest 1 element greater then itself.
+
+Observation: For every Maximum element there won't be any element greater then itself.
+
+Psudocode: 
+>>>> Itrate and find the Maximum of the array.
+>>>> Itrate and get the Number of elements which are not equal to Maximum
+
+Example: [-1,7,9,4,0,6,9,5]
+Answer: 6

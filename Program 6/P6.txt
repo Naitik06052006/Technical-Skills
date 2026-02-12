@@ -1,0 +1,2 @@
+
+Question >>> you have given an integer array  A. you have to find the second largest elements or value in the array.

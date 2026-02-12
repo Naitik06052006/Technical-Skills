@@ -1,0 +1,28 @@
+Question>>>> Given an integer array A of size n. in 1 sec you can increase the value of 1 element by 1 find the minimum time in seconds to make all elements of thye array equal.
+
+example: 
+        A = {2,4,5,7,9,3}
+        itration 1>> total time = total time + ( Maximum array element - a[i]).
+                     total time = 0 +(9-2)
+        itration 2>> total time = total time + ( Maximum array element - a[i]).
+                     total time = 7 +(9-4)
+        itration 3>> total time = total time + ( Maximum array element - a[i]).
+                     total time = 12 +(9-5)
+        itration 4>> total time = total time + ( Maximum array element - a[i]).
+                     total time = 16 +(9-7)
+        itration 5>> total time = total time + ( Maximum array element - a[i]).
+                     total time = 18 +(9-9)
+        itration 6>> total time = total time + ( Maximum array element - a[i]).
+                     total time = 18+(9-3)
+        
+        Total time = 24.
+
+
+observation:
+1... To minimize time to make all elements equal to the maximum element of the array.
+
+Psudocode: 
+
+step 1 ... find the maximum element in the array.
+step 2 ... for element calcualte how much it need to be increased to reach the maximum
+step 3 ... Sum all those difference.
